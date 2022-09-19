@@ -27,15 +27,16 @@ console.log(obj)
 // Below function Executes on click of login button.
 function validate(){
     var get = localStorage.getItem(JSON.stringify(obj));
-    // get = JSON.parse();
-    var username = document.getElementById("loginEmail").value;
-    var password = document.getElementById("loginPass").value;
+    get = JSON.parse();
+    
+//     var username = document.getElementById("loginEmail").value;
+//     var password = document.getElementById("loginPass").value;
     // if ( username == get.obj[fname] && password == get[obj]){
     // alert ("Login successfully");
     // window.location = "success.html"; // Redirecting to other page.
     // return false;
     // }
-    console.log(get)
+    console.log(get.fname)
 }
 
 
